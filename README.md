@@ -6,6 +6,14 @@ Exploring career opportunities across U.S. states using BLS wage and employment 
 
 If someone has data analysis skills, where can those skills lead besides a job title that directly says "data analyst"? This project uses the U.S. Bureau of Labor Statistics' May 2024 State Occupational Employment and Wage Estimates to look beyond the narrow list of traditional data-job titles, toward the broader set of roles — in business, technology, research, operations, purchasing, logistics, and management — where data-related work regularly shows up.
 
+## Technologies
+
+| Category | Tools |
+|---|---|
+| Data Source | BLS public data (`.xlsx`) |
+| Analysis | Python, pandas, NumPy |
+| Visualization | Matplotlib |
+
 ## Data source
 
 [May 2024 State Occupational Employment and Wage Statistics](https://www.bls.gov/oes/current/oessrcst.htm), U.S. Bureau of Labor Statistics (public domain, U.S. government work). The workbook used here (`data/state_M2024_dl.xlsx`) is the "state_M2024_dl" download from that page; it reports employment, wages, job density (`JOBS_1000`), and location quotient (`LOC_QUOTIENT`) by occupation and state.
